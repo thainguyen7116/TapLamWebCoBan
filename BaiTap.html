@@ -7,35 +7,26 @@
     <link rel="stylesheet" href="BaiTap.css">
 </head>
 <body>
-
-    <!-- ==================== HEADER ==================== -->
     <header>
-
-        <!-- Logo -->
         <div class="logo">
             UTH
             <span>University of Transport Ho Chi Minh City</span>
         </div>
 
-        <!-- Thanh tìm kiếm -->
         <div class="search-bar">
             <input type="text" placeholder="Tìm kiếm sản phẩm...">
             <button>Tìm</button>
         </div>
 
-        <!-- Giỏ hàng + Tài khoản (laptop) -->
         <div class="header-actions">
             <a href="#">🛒 Giỏ hàng (0)</a>
             <a href="#">👤 Tài khoản</a>
         </div>
 
-        <!-- Nút mở menu (điện thoại) -->
         <button class="btn-menu" onclick="moMenu()">☰</button>
 
     </header>
 
-
-    <!-- ==================== MENU ĐIỆN THOẠI ==================== -->
     <div id="mobile-menu">
         <a href="#">Trang chủ</a>
         <a href="#">Điện thoại</a>
@@ -45,8 +36,6 @@
         <a href="#">Liên hệ</a>
     </div>
 
-
-    <!-- ==================== ĐIỀU HƯỚNG (LAPTOP) ==================== -->
     <nav>
         <ul>
             <li><a href="#">Trang chủ</a></li>
@@ -58,25 +47,19 @@
         </ul>
     </nav>
 
-
-    <!-- ==================== NỘI DUNG CHÍNH ==================== -->
     <div class="trang-chu">
 
-        <!-- Cột trái: banner + sản phẩm -->
         <div class="cot-trai">
 
-            <!-- Banner -->
             <div class="banner">
                 <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=900&q=80" alt="Banner">
                 <div class="banner-text">Khuyến mãi đặc biệt<br>- Giảm giá 50%!</div>
             </div>
 
-            <!-- Sản phẩm nổi bật -->
             <h2 class="tieu-de">Sản phẩm nổi bật</h2>
 
             <div class="luoi-san-pham">
 
-                <!-- Sản phẩm 1 -->
                 <div class="the-san-pham">
                     <img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=500&q=80" alt="iPhone 15">
                     <div class="ten">iPhone 15</div>
@@ -84,7 +67,6 @@
                     <button class="btn-mua">Mua ngay</button>
                 </div>
 
-                <!-- Sản phẩm 2 -->
                 <div class="the-san-pham">
                     <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&q=80" alt="Laptop Dell">
                     <div class="ten">Laptop Dell</div>
@@ -92,7 +74,6 @@
                     <button class="btn-mua">Mua ngay</button>
                 </div>
 
-                <!-- Sản phẩm 3 -->
                 <div class="the-san-pham">
                     <img src="https://images.unsplash.com/photo-1545127398-14699f92334b?w=500&q=80" alt="Tai nghe Sony">
                     <div class="ten">Tai nghe Sony</div>
@@ -100,7 +81,6 @@
                     <button class="btn-mua">Mua ngay</button>
                 </div>
 
-                <!-- Sản phẩm 4 -->
                 <div class="the-san-pham">
                     <img src="https://images.unsplash.com/photo-1601593346740-925612772716?w=500&q=80" alt="Ốp lưng iPhone">
                     <div class="ten">Ốp lưng iPhone</div>
@@ -109,13 +89,9 @@
                 </div>
 
             </div>
-            <!-- Hết lưới sản phẩm -->
-
+            
         </div>
-        <!-- Hết cột trái -->
-
-
-        <!-- Cột phải: sản phẩm bán chạy -->
+        
         <div class="cot-phai">
             <div class="ban-chay">
 
@@ -163,13 +139,9 @@
 
             </div>
         </div>
-        <!-- Hết cột phải -->
-
+       
     </div>
-    <!-- Hết nội dung chính -->
-
-
-    <!-- ==================== FOOTER ==================== -->
+    
     <footer>
         <div class="footer-noi-dung">
 
@@ -197,20 +169,6 @@
             © 2026 E-Shop. Tất cả quyền được bảo lưu.
         </div>
     </footer>
-
-
-    <!-- ==================== JAVASCRIPT ==================== -->
-    <script>
-        // Hàm mở/đóng menu trên điện thoại
-        function moMenu() {
-            var menu = document.getElementById("mobile-menu");
-            if (menu.classList.contains("open")) {
-                menu.classList.remove("open");
-            } else {
-                menu.classList.add("open");
-            }
-        }
-    </script>
 
 </body>
 </html>
